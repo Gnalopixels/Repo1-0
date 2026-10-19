@@ -8,8 +8,8 @@ public class mensaje {
         Scanner sc = new Scanner(System.in);
         return sc.nextLine();
     }
-    public void saludar(String nombre) {
-        System.out.printf("Hola %s, bien culeado a gaba\n", nombre);
+    public void saludar(Persona p1) {
+        System.out.printf("Hola %s, bien culeado a gaba\n", p1.getNombre()+" "+p1.getApellido());
 
     }
 }
